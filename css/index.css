@@ -31,16 +31,28 @@ footer, header, hgroup, menu, nav, section {
 header{ width:100%;
         align-content: center;}
 
-header nav{ width:100%;
-  margin: 5px 5px 5px 25%
+header nav{ width:70%;
+  margin:1% 0 2% 28%
 }
+header nav img{width:14%;
+                margin:15px 0 0 0;
             
-
-header a{padding:20px;
 }
 
-header img{width:75%;
-            margin-left: 13%;}
+header a {
+         padding:5px 3%;
+        color:black;
+        font-weight: bold;
+        text-decoration: none;
+
+}
+
+header img{ width:45%;
+            padding:5px;
+            margin-left:28%;
+            margin-bottom:2% ;
+}
+
 body {
 	line-height: 1;
 }
@@ -117,13 +129,23 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.box#box1 {background-color:teal;}
+.box#box2{background-color:gold;}
+.box#box3{background-color:cadetblue;}
+.box#box4{background-color:coral;}
+.box#box5{background-color:crimson;}
+.box#box6{background-color:forestgreen;}
+.box#box7{background-color:darkorchid;}
+.box#box8{background-color:hotpink;}
+.box#box9{background-color:indigo;}
+.box#box10{background-color:dodgerblue;}
 
 .bottom-content {
     display: flex;
@@ -157,3 +179,50 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.about-page
+{
+    width: 850px;
+    height:850px;
+    margin: 0 auto;
+    
+}
+
+.about-text{border-bottom: dotted 2px;
+            padding-bottom:25px;
+            font-weight: 600;}
+
+.fourbox {height:98%;
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+   
+}
+
+.about-box {height:48%;
+width:45%;
+border-bottom: dotted 2px ;
+padding:10PX;
+margin:5px
+}
+
+.about-box img{width:100%;
+    
+}
+
+button{
+border-radius:8px ;
+border:2px solid black;
+padding:8px;
+margin:8px 0 5px 25px;
+font-size:15px;
+font-weight: 500;
+background-color: white;
+}
+
+div.last{
+margin:5px;
+padding:5px
+}
+
+footer nav {margin-left: 20%;}
