@@ -1,0 +1,20 @@
+1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+    The simplist way I can describe semantic hmtl is by comparing it to a body. This html describes the body parts of the page for a browser.
+
+2.Name two big differences between display: block; and display: inline;.
+
+    Display block will add a new line or break
+    block is used to build a container vs inline is used for styling
+
+3.What are the 4 areas of the box model?
+
+    Margin, padding, border, content
+
+4.While using flexbox, what axis does the following property work on: align-items: center?
+
+    The cross-axis
+
+5.Explain why git is valuable to a team of developers.
+
+    Git is valuable tool because it allows you to branch and have multiple people working on aproject. Once all is finished it allows you to merge work together.
